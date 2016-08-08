@@ -29,7 +29,7 @@ class Gallery_model extends MY_Model
                     'description' => array(
                             'field'=> 'description',
                             'label'=> 'Cuplikan',
-                            'rules'=> 'required|max_length[300]'
+                            'rules'=> 'required'
                     ),                   
                     'thumbnail' => array(
                             'field'=> 'image',

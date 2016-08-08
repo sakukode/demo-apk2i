@@ -55,7 +55,7 @@
 									<img style="margin-bottom: 20px;" src="<?php echo base_url('upload/images/'.$article->thumbnail);?>" class="img-responsive" alt="<?php echo $article->name;?>">
 									<div class="caption">
 										<h3 style="margin-bottom: 15px;"><?php echo $article->name;?></h3>
-										<p style="margin-bottom: 20px;"><?php echo $article->description;?></p>
+										<p style="margin-bottom: 20px;"><?php echo substr($article->description, 0, 200);?></p>
 										<p>
 											<?php
 											$filename_arr = explode(".", $article->filename);

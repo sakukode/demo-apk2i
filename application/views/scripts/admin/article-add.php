@@ -5,8 +5,7 @@ $(document).ready(function() {
             name: {                
                 required: true
             }, 
-            description: {                
-                maxlength: 300,
+            description: {                             
                 required: true
             },                
             file: {
@@ -23,8 +22,7 @@ $(document).ready(function() {
 				required: 'Nama Article harap diisi',				
 			},
             description: {
-                required: 'Cuplikan Article harap diisi',               
-                maxlength: 'Cuplikan Article tidak boleh lebih dari 200 karakter'
+                required: 'Cuplikan Article harap diisi',                
             },
 			file: {
                 required: 'File harap dipilih',
