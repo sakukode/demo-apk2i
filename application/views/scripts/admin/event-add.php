@@ -41,6 +41,7 @@ $(document).ready(function() {
             }
         },
         submitHandler: function(form) {      
+            $('.overlay').show(); 
             hideNotifError();       
         	var formData = new FormData($(form)[0]);
 

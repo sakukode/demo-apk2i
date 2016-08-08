@@ -7,7 +7,7 @@
 		<div class="col-md-6 banner-grid">
 			<h3>Indonesia Association Of Health and Beauty Entrepeneurs</h3>
 			<p>is A forum for entrepreneurs who are professionals in the field of health and beauty in Indonesia. A partner of the government, entrepreneurs partners, bridge to open up wider opportunities for work in the field of health and beauty business.</p>
-			<a href="profile.html" class="button">Read More</a>
+			<a href="<?php echo site_url('profile');?>" class="button">Read More</a>
 		</div>
 		<div class="clearfix"></div>
 	</div>

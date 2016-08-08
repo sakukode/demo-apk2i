@@ -171,6 +171,7 @@ class Gallery extends MY_Controller
                     'name' => $name,
                     'description' => $description,
                     'status' => $status,
+                    'slug' => $slug,
                     'thumbnail' => $thumbnail,
                     'created_by' => user_login('id')
                 );

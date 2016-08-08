@@ -1,5 +1,5 @@
 <div class="table-regulasi row">
-	<div class="container">
+	<div class="container" style="min-height: 768px;">
 		<div class="col-md-12 col-lg-12 hidden-xs">
 			<h2 style="margin-top: 30px; margin-bottom: 30px;">Regulasi</h2>
 			<table class="table table-bordered table-hover">

@@ -22,7 +22,7 @@
 					<li class="dropdown">					
 				</li>				
 				<li><a href="<?php echo site_url('regulasi');?>">Regulasi</a></li>				
-				<li><a href="member/form APK2I.pdf" target="_blank ">Member </a></li>	
+				<li><a href="<?php echo base_url('upload/pdf/form APK2I.pdf');?>" target="_blank ">Member </a></li>	
 				<li><a href="<?php echo site_url('contact-us');?>">Contact Us </a></li>
 				
 			</ul>

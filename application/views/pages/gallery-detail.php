@@ -18,7 +18,7 @@
 		?>		
 			<div class="col-md-4 hosting-grid">
 				<div class="hosting-grd">
-					<a class="swipebox" href="<?php echo base_url('upload/images/'.$image->filename);?>"><img src="<?php echo base_url('upload/images/'.$image->filename);?>" class="img-responsive" alt=""><span class="zoom-icon"></span></a>
+					<a class="swipebox" href="<?php echo base_url('upload/images/'.$image->filename);?>"><img src="<?php echo base_url('upload/images/'.$image->filename);?>" height="300" alt=""><span class="zoom-icon"></span></a>
 				</div>
 			</div>
 		<?php
@@ -26,6 +26,7 @@
 		?>
 			<div class="clearfix"> </div>
 		</div>
+		<div class="clearfix"> </div>
 		<div class="hosting-grids">
 		<?php
 		endif;
